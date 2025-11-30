@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ExtractAllCharacters {
     
-    private static List<String> words = List.of("java", "code");
+    private static final List<String> words = List.of("java", "code");
 
     public static void main(String[] args) {
 

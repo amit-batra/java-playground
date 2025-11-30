@@ -4,7 +4,7 @@ import java.util.List;
 
 public class FlattenListOfIntegers {
 
-    private static List<List<Integer>> listOfLists = List.of(
+    private static final List<List<Integer>> listOfLists = List.of(
         List.of(1, 2),
         List.of(3),
         List.of(4, 5, 6)
